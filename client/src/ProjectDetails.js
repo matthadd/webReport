@@ -41,7 +41,7 @@ export default class ProjectDetails extends Component {
         </Panel.Heading>
         <Panel.Body>
           <p>Name : {this.state.projectDetails.data.name}</p>
-          <p>Email : {this.state.projectDetails.data.project_manager}</p>
+          <p>Project Manager : {this.state.projectDetails.data.project_manager}</p>
           <p>Phone : {this.state.projectDetails.data.phone}</p>
           <p>City : {this.state.projectDetails.data.city}</p>
           <p>State : {this.state.projectDetails.data.state}</p>
