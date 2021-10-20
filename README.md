@@ -39,7 +39,7 @@
   
 <!-- L'équipe -->
 # L'équipe
-  Nous sommes 14 élèves répartis en plusieurs équipes.
+  Nous sommes 14 élèves répartis en plusieurs équipes. Voir l'organigramme : [Equipe](https://github.com/matthadd/webReport/blob/main/Equipe.pdf)
 
 <!-- CONTRIBUTING -->
 ## Contributing
