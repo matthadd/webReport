@@ -20,7 +20,6 @@
 ## Table of Contents
 
 * [Le projet](#le-projet)
-  * [Résumé](#resume)
   * [Contexte](#contexte)
   * [Enjeux et objectifs](#objectifs)
 * [L'équipe](#Team)
