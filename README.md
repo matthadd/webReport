@@ -14,13 +14,6 @@
   <!-- logo of the project/game here -->
   <img height="300" src="https://perso-etis.ensea.fr/neurocyber/web/images/logo_ensea.png" alt="logo"/>  
 
-  <div align="center">
-
-  [![c++ version][cpp-ver-shield]][cpp-ver]
-  [![software version][version-shield]][cpp-ver]
-  [![build status][build-status-shield]][build-status]
-
-  </div>
 </p>
 
 <!-- TABLE OF CONTENTS -->
