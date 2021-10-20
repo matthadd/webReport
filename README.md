@@ -23,6 +23,7 @@
   * [Contexte](#contexte)
   * [Enjeux et objectifs](#objectifs)
 * [L'équipe](#Team)
+* [Documentation](#Documentation)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -40,6 +41,12 @@
 <!-- L'équipe -->
 # L'équipe
   Nous sommes 14 élèves répartis en plusieurs équipes. Voir l'organigramme : [Equipe](https://github.com/matthadd/webReport/blob/main/Equipe.pdf)
+
+<!-- Documentation -->
+# Détail des demandes
+ Pour voir les détails des demandes, voir : [Demandes](https://github.com/matthadd/webReport/blob/main/documents/détail_des_demandes.pdf)
+# Spécification projet
+ Pour voir les spécifications, voir : [Spécifications]()
 
 <!-- CONTRIBUTING -->
 ## Contributing
