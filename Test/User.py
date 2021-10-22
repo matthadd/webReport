@@ -1,4 +1,4 @@
-from Role import Role
+from roles import roles
 
 class User:
     """Class User
@@ -9,12 +9,13 @@ class User:
     matricule = None  # (str) 
     password = None  # (str) 
     metier = None  # (str) 
-    roles = None  # (list) 
-    photo = None  # (list) 
+    roles = {}  # (list) 
+    photo = {} # (list) 
     status = None  # (int) 
     
     # Operations
-    def User(self, nom, prenom, matricule, password, metier, newRole , newPhoto, , roles = [0]):
+    
+    def __Init__(self, nom, prenom, matricule, password, metier, newRole , newPhoto, roles = [0]):
         """function User
         
         nom: str
@@ -29,7 +30,15 @@ class User:
         
         returns 
         """
-        return None # should raise NotImplementedError()
+        self.nom=nom
+        self.prenom=prenom
+        self.matricule=matricule
+        self.password=password
+        self.metier=metier
+        self.roles.append(newRole)
+        self.photo.append(newPhoto)
+
+        
     
     def updateUser(self, nom, prenom, matricule, password, metier, roles):
         """function updateUser
@@ -43,7 +52,12 @@ class User:
         
         returns void
         """
-        return None # should raise NotImplementedError()
+        self.nom=nom
+        self.prenom=prenom
+        self.matricule=matricule
+        self.password=password
+        self.metier=metier
+        self.roles.append(roles)
     
     def createProject(self, dateBegin, dateEnd, budget):
         """function createProject
@@ -54,6 +68,7 @@ class User:
         
         returns 
         """
+
         return None # should raise NotImplementedError()
     
     def updateProject(self, datebegin, dateEnd, budget):
